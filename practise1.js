@@ -12,11 +12,6 @@ console.log(person);
 
 
 
-
-var enames = ["s","u","r","e"];
-for (let i=0;i<=3;i++){
-    console.log(enames[i]);
-}
 var enames = ["s","u","r","e"];
 for (var i=0;i<enames.length;i++){
     console.log(enames[i]);
