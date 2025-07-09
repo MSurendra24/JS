@@ -999,6 +999,16 @@ let employees=[{"id":1,"ename":"Freeland","gender":"Male"},
 {"id":999,"ename":"Trish","gender":"Bigender"},
 {"id":1000,"ename":"Velvet","gender":"Female"}];
 
-for(i=0;i<10;i++){
-    console.log(employees[i])
+let no_Male_employees=0;
+let no_Female_employees=0;
+for (let emp of employees) {
+if(emp.gender==="Male"){
+    no_Male_employees++;
+
 }
+if(emp.gender==="Female"){
+    no_Female_employees++;
+}
+}
+console.log("no of Male employees:",no_Male_employees)
+console.log("no of Female employees:",no_Female_employees)
