@@ -1,7 +1,7 @@
 function mul(a,b){
 console.log(a*b)
 }
-add(10,20)
-add(100,100)
-add(10,"sure")
-add(100)
+mul(10,20)
+mul(100,10)
+mul(10,"sure")
+mul(100)
