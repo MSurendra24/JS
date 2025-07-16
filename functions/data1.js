@@ -1,5 +1,6 @@
 function display(){
-    alert("Good Morning")
-    console.log(new Date().toLocaleTimeString)
+   // alert("Good Morning")
+    //console.log(new Date().toLocaleTimeString)
+    
 }
 display();
