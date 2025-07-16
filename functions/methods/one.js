@@ -10,6 +10,9 @@ let fun2=()=>{
 let fun3=()=>{
     document.getElementsByTagName("button")[0].style.backgroundColor='rgba(50, 36, 203, 1)'
 }
-const input = document.getElementById("blurInput");
-
-input.value = input.value.toUpperCase();
+let fun4=()=>{
+    document.getElementsByTagName("button")[3].style.backgroundColor='rgba(71, 157, 210, 1)'
+}
+let fun5=()=>{
+    document.getElementsByTagName("button")[3].style.backgroundColor='rgba(192, 24, 189, 1)'
+}
