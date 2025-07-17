@@ -1,3 +1,83 @@
-let employee=[{"eid":1,"ename":"sure","gender":"Male"},
-{"eid":2,"ename":"su","gender":"Male"}]
-document.getElementsByTagName("tbody")[0].innerHTML="hello"
+let employee=[{"id":1,"ename":"Freeland","gender":"Male"},
+{"id":2,"ename":"Sephira","gender":"Female"},
+{"id":3,"ename":"Merrily","gender":"Female"},
+{"id":4,"ename":"Lee","gender":"Male"},
+{"id":5,"ename":"Janelle","gender":"Female"},
+{"id":6,"ename":"Darbee","gender":"Male"},
+{"id":7,"ename":"Leighton","gender":"Male"},
+{"id":8,"ename":"Wesley","gender":"Male"},
+{"id":9,"ename":"Silvan","gender":"Male"},
+{"id":10,"ename":"Clywd","gender":"Male"},
+{"id":11,"ename":"Joane","gender":"Female"},
+{"id":12,"ename":"Willard","gender":"Male"},
+{"id":13,"ename":"Josey","gender":"Female"},
+{"id":14,"ename":"Kev","gender":"Male"},
+{"id":15,"ename":"Benedetta","gender":"Female"},
+{"id":16,"ename":"Hetti","gender":"Female"},
+{"id":17,"ename":"Beverlie","gender":"Female"},
+{"id":18,"ename":"Devin","gender":"Male"},
+{"id":19,"ename":"Prince","gender":"Male"},
+{"id":20,"ename":"Leta","gender":"Genderqueer"},
+{"id":21,"ename":"Marius","gender":"Male"},
+{"id":22,"ename":"Laurel","gender":"Female"},
+{"id":23,"ename":"Smith","gender":"Male"},
+{"id":24,"ename":"Farly","gender":"Male"},
+{"id":25,"ename":"Winnifred","gender":"Female"},
+{"id":26,"ename":"Thomasa","gender":"Female"},
+{"id":27,"ename":"Algernon","gender":"Male"},
+{"id":28,"ename":"Lonnie","gender":"Non-binary"},
+{"id":29,"ename":"Marlo","gender":"Male"},
+{"id":30,"ename":"Kaitlyn","gender":"Female"},
+{"id":31,"ename":"Orville","gender":"Male"},
+{"id":32,"ename":"Leon","gender":"Male"},
+{"id":33,"ename":"Sonny","gender":"Female"},
+{"id":34,"ename":"Harmonia","gender":"Female"},
+{"id":35,"ename":"Bruis","gender":"Male"},
+{"id":36,"ename":"Emilie","gender":"Female"},
+{"id":37,"ename":"Poppy","gender":"Female"},
+{"id":38,"ename":"Robert","gender":"Male"},
+{"id":39,"ename":"Donalt","gender":"Male"},
+{"id":40,"ename":"Dom","gender":"Male"},
+{"id":41,"ename":"Shoshanna","gender":"Female"},
+{"id":42,"ename":"Kerk","gender":"Male"},
+{"id":43,"ename":"Margareta","gender":"Female"},
+{"id":44,"ename":"Hephzibah","gender":"Non-binary"},
+{"id":45,"ename":"Faber","gender":"Male"},
+{"id":46,"ename":"Shelton","gender":"Male"},
+{"id":47,"ename":"Kory","gender":"Male"},
+{"id":48,"ename":"Germain","gender":"Female"},
+{"id":49,"ename":"Roarke","gender":"Male"},
+{"id":50,"ename":"Venus","gender":"Polygender"},
+{"id":51,"ename":"Obadiah","gender":"Male"},
+{"id":52,"ename":"Maxy","gender":"Female"},
+{"id":53,"ename":"Inger","gender":"Male"},
+{"id":54,"ename":"Gladys","gender":"Female"},
+{"id":55,"ename":"Meredith","gender":"Male"},
+{"id":56,"ename":"Rossie","gender":"Male"},
+{"id":57,"ename":"Celia","gender":"Female"},
+{"id":58,"ename":"Boycie","gender":"Male"},
+{"id":59,"ename":"Lynnelle","gender":"Female"},
+{"id":60,"ename":"Valerye","gender":"Agender"},
+{"id":61,"ename":"Danit","gender":"Female"},
+{"id":62,"ename":"Eugen","gender":"Male"},
+{"id":63,"ename":"Ephrem","gender":"Male"},
+{"id":64,"ename":"Carolynn","gender":"Bigender"},
+{"id":65,"ename":"Ajay","gender":"Female"},
+{"id":66,"ename":"Levon","gender":"Male"},
+{"id":67,"ename":"Bordie","gender":"Male"},
+{"id":68,"ename":"Dela","gender":"Polygender"},
+{"id":69,"ename":"Skipper","gender":"Male"},
+{"id":70,"ename":"Victoir","gender":"Male"}
+];
+let display_data=()=>{
+    let rows="";
+    for(let emp of employee ){
+        rows=rows+`<tr>
+        <td>${emp.id}</td>
+        <td>${emp.ename}</td>
+        <td>${emp.gender}</td>
+        </tr>`
+
+    }
+document.getElementsByTagName("tbody")[0]
+}
